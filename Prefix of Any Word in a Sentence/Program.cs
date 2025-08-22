@@ -2,7 +2,7 @@
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine(IndexOfPerfix("i burger eating burger", "burg")); //output=4
+        Console.WriteLine(IndexOfPerfix("i you eating burger", "burg")); //output=4
         Console.WriteLine(IndexOfPerfix("this problem is an easy problem","pro")); //output=2
         Console.WriteLine(IndexOfPerfix("i am tired", "you")); //output=-1
     }
